@@ -2,18 +2,24 @@
   "name": "savemoney",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:5000",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.26.1",
+    "fomantic-ui": "^2.9.0-beta.270",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-scripts": "5.0.0",
+    "recharts": "^2.1.9",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.1.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "./init.sh && react-scripts start",
+    "build": "./init.sh && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
